@@ -1,13 +1,13 @@
 # WeatherNow 🌤️
 
-A React + Vite weather app that fetches **real-time weather data** from the [OpenWeather API](https://openweathermap.org/api).  
-Built with Material UI components for a clean and responsive UI.
+A React + Vite weather app that fetches **real-time weather data** from the OpenWeather API.  
+Built with Material UI for a modern, responsive UI.
 
 ## Features
-- 🌍 Search weather by city name
-- 🌡️ Displays temperature, humidity, and feels-like conditions
+- 🌍 Search weather by city
+- 🌡️ Shows temperature, humidity, feels-like conditions
 - 🌦️ Weather icons (sunny, rainy, snowy)
-- 📱 Responsive design with Material UI
+- 📱 Mobile-friendly design
 
 ## Tech Stack
 - React + Vite ⚡
