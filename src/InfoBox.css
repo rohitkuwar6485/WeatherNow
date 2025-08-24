@@ -1,0 +1,45 @@
+.InfoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+/* Style for the MUI Card */
+.MuiCard-root {
+  max-width: 400px;
+  background: linear-gradient(to bottom right, #ffffff, #e0f7fa);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Center content inside CardContent */
+.MuiCardContent-root {
+  padding: 1.5rem;
+
+  /* Flexbox centering */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* vertical center */
+  align-items: center;      /* horizontal center */
+  text-align: center;       /* center text inside */
+}
+
+/* City title style */
+.cityTitle {
+  font-weight: bold;
+  color: #004d7a;
+  margin-bottom: 0.5rem;
+}
+
+/* Weather details style */
+.InfoBoxDetails {
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Optional: tighten spacing between paragraphs */
+.InfoBoxDetails p {
+  margin: 0.25rem 0;
+}
